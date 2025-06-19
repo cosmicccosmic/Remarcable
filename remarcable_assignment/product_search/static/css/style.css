@@ -1,0 +1,113 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --light-gray: #f8f9fa;
+  --dark-gray: #343a40;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.main-container {
+  min-height: 80vh;
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.search-form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.form-label {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  padding: 8px 24px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.table {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  vertical-align: middle;
+}
+
+.badge {
+  padding: 6px 10px;
+  margin: 2px;
+  font-weight: 500;
+}
+
+.tag-badge {
+  background-color: var(--primary-color) !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.flex-gap-10 {
+    display: flex;
+    gap: 10px; 
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+/* Custom CSS for the description search field */
+@media (min-width: 576px) {
+    .align-items-center label.form-label {
+        text-align: right;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+}

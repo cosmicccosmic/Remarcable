@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Search</title>
+    <link href="{% static 'css/bootstrap/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container main-container">
+        <header class="text-center my-4">
+            <h1>Fruit Search</h1>
+        </header>
+
+        <main>
+            {% block content %}
+            <p>Let's Search for Fruit!</p>
+            {% endblock %}
+        </main>
+    </div>
+</body>
+
+</html>
