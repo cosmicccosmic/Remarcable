@@ -10,7 +10,7 @@ An application to search for fruit products based on their respective category a
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/cosmicccosmic/Remarcable.git
    cd RemarcableProject
    ```
 
